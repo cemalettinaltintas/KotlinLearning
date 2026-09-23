@@ -79,7 +79,6 @@ package com.cemalettinaltintas.kotlinlearning
 
         val fullName=name+" "+surname
 
-
         var departman: String="Human Resource"
         println(departman)
 
@@ -87,14 +86,17 @@ package com.cemalettinaltintas.kotlinlearning
 
         var myNumber=5
 
-
-
         var myLongNumber=myNumber.toLong()
-
 
        var input="10"
 
         var inputInteger=input.toInt()
 
         println(inputInteger::class.simpleName)
+
+
+        //Arrays
+        //Collections
+
+
     }
