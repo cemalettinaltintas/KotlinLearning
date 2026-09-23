@@ -71,7 +71,6 @@ package com.cemalettinaltintas.kotlinlearning
 
         println(sonuc)//false
 
-
         //String
         val myString="C. Altıntaş"
 
@@ -84,7 +83,18 @@ package com.cemalettinaltintas.kotlinlearning
         var departman: String="Human Resource"
         println(departman)
 
+        //Conversion - Tip dönüşümü
+
+        var myNumber=5
 
 
 
+        var myLongNumber=myNumber.toLong()
+
+
+       var input="10"
+
+        var inputInteger=input.toInt()
+
+        println(inputInteger::class.simpleName)
     }
