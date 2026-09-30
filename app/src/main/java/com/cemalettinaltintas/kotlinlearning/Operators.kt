@@ -3,7 +3,6 @@ package com.cemalettinaltintas.kotlinlearning
 fun main(){
 
     println("-----------Operator")
-
     var m=5
 
     m++
@@ -17,7 +16,6 @@ fun main(){
     // && - and-ve
 
     // || - or - veya
-
     println(n>m)//true
     println(n>m && 1>2)//false
     println(n<m || 3>2)//true
@@ -25,5 +23,4 @@ fun main(){
     // Mod - Remainder - Kalan
 
     println(10%4)
-
 }
