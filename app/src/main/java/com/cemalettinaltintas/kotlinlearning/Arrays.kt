@@ -28,13 +28,9 @@ fun main(){
     //println(students[3])
     students.add(0,"Alp")
     println(students[4])
-
-
     //Set
-
     println("-----------Set------------")
     val mySet=setOf<Int>(1,4,2,3)
-
 
     //println(mySet.size)
 
@@ -42,9 +38,7 @@ fun main(){
     //println(mySet.elementAtOrNull(5))
 
     //For Each
-
     mySet.forEach { println(it*10) }
-
 
     //Hash Map
 
